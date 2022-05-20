@@ -55,7 +55,6 @@ Resources:
           sudo apt-get install apache2 -y
           sudo systemctl start apache2.service          
       ImageId: ami-0747bdcabd34c712a
-      KeyName: nd9990_keypair
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t3.medium
